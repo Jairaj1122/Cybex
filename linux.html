@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
+    <link rel="stylesheet" href="Assets/Stylesheet/linux.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Fira+Sans&family=Inter:wght@200&family=Noto+Sans:wght@700;900&family=Open+Sans:wght@300&family=Oxygen&family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Fira+Sans&family=Inter:wght@200&family=Noto+Sans:wght@700;900&family=Open+Sans:wght@300&family=Oxygen&family=Roboto:wght@700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+            <div class="Logo">
+                <img src="C:\Users\jairaj\Desktop\Project2.0\Assets\img\logo.png">
+            </div>
+            </a>
+            <div href="#Tutorial" class="menu-btn" id="Tutorial-btn">
+                Tutorials
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#references" class="menu-btn" id="references-btn">
+                References
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+            <!-- <div href="#Get_Certified" class="menu-btn" id="exercises-btn">
+                Get Certified
+            </div> -->
+            <div href="#About" class="menu-btn" id="video-btn">
+                About
+            </div>
+            <a href="#Contact" class="menu-btn" id="video-btn">
+                Contact
+            </a>
+            <!-- mobile view menu -->
+            <div class="menu-btn" id="Menu-btn-Mobile">
+                Menu
+                <i class="fa-sharp fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="toggle_Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#login" class="btn" id="login-btn">
+                Log in
+            </a>
+        </div>
+    </header>
+
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <button id="mobile-Nav-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul>
+            <a href="#Tutorial" class="menu-btn-mobile_menu">
+                Tutorials
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </a>
+            <a href="#references" class="menu-btn-mobile_menu">
+                References
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </a>
+            <!-- <a href="#Get_Certificated" class="menu-btn-mobile_menu">
+                Get Certified
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </a> -->
+            <a href="About" class="menu-btn-mobile_menu">
+                About
+            </a>
+            <a href="#Contact" class="menu-btn-mobile_menu">
+                Contact
+            </a>
+        </ul>
+    </div>
+
+
+    <!-- nested navigation bar -->
+    <div class="nested-navigation-container nested-navigation-hidden" id="nested-navigation-container_id">
+        <div class="nested-navigation_container_close-btn" id="nested-navigation-close-btn">
+            <button><i class="fa-solid fa-xmark" class="menu-btn"></i></button>
+        </div>
+        <div class="nested-navigation-container_content" id="nested-navigation-container-contentID">
+            <h1>Tutorials</h1>
+            <div class="nested-navigation-container_Content_data">
+                <div class="nested-navigation-item">
+                    <a href="">Windows</a>
+                    <!-- <a href=""></a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a> -->
+                </div>
+                <div class="nested-navigation-item">
+                    <a href="">Linux</a>
+                    <!-- <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a> -->
+                </div>
+                <div class="nested-navigation-item">
+                    
+                    <h2>HTML and CSS</h2>
+                    <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a>
+                </div>
+                <div class="nested-navigation-item">
+                    <h2>HTML and CSS</h2>
+                    <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a>
+                </div>
+                <div class="nested-navigation-item">
+                    <h2>HTML and CSS</h2>
+                    <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal_wrapper">
+        <div class="horizontal_Nav_left">
+            <div class="horizontalNav_Btn" id="openSidebarMenuID">
+                <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <a href="#" class="horizontal_Nav_item">WINDOWS</a>
+            <a href="#" class="horizontal_Nav_item">LINUX</a>
+            <a href="#" class="horizontal_Nav_item">NETWORKING</a>
+            <a href="#" class="horizontal_Nav_item">VULNERABILITY ASSESSMENT</a>
+            <a href="#" class="horizontal_Nav_item">SOC OPERATIONS</a>
+            <a href="#" class="horizontal_Nav_item">SIEM TOOLS</a>
+        </div>
+        <div class="horizontal_Nav_right">
+            <div class="toggleLight ">
+                <a href="#"><i class="fa-sharp fa-regular fa-sun-bright"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper_body_html">
+        <aside class="wrapper-body_left" id="sidebarNavigationHTMLID">
+            <div class="wrapper-body_left_heading">Linux Tutorial</div>
+            <a href="Linux_Intro.html" class="horizontal_menu_item_aside" target="displayContent">Introduction</a> 
+            <a href="Linux_Distributions.html" class="horizontal_menu_item_aside" target="displayContent">Distributions</a>
+            <a href="#" class="horizontal_menu_item_aside">The Linux Shell</a>
+            <a href="#" class="horizontal_menu_item_aside">Root</a>
+            <a href="#" class="horizontal_menu_item_aside">Capitalization</a>
+            <a href="#" class="horizontal_menu_item_aside">Server vs. Desktop</a>
+            <a href="#" class="horizontal_menu_item_aside">Why Use Linux?</a>
+            <a href="#" class="horizontal_menu_item_aside">Installing Linux Server Edition</a>
+            <a href="#" class="horizontal_menu_item_aside">Installing Linux Desktop Version</a>
+            <a href="#" class="horizontal_menu_item_aside">Basic Linux Tasks/Commands</a>
+            <a href="#" class="horizontal_menu_item_aside">Sudo</a>
+            <a href="#" class="horizontal_menu_item_aside">Man Pages</a>
+            <a href="#" class="horizontal_menu_item_aside">Tasksel</a>
+            <a href="#" class="horizontal_menu_item_aside">Apt-get</a>
+            <a href="#" class="horizontal_menu_item_aside">Services</a>
+            <a href="#" class="horizontal_menu_item_aside">Top</a>
+            <a href="#" class="horizontal_menu_item_aside">Basic Linux Navigation</a>
+            <a href="#" class="horizontal_menu_item_aside">Editing Linux Files with Vim</a>
+            <a href="#" class="horizontal_menu_item_aside">Starting Vim</a>
+            <a href="#" class="horizontal_menu_item_aside">Changing File Ownership</a>
+            <a href="#" class="horizontal_menu_item_aside">Editing and Navigation</a>
+            <a href="#" class="horizontal_menu_item_aside">Exiting and Saving</a>
+            <a href="#" class="horizontal_menu_item_aside">Advanced Linux Navigation</a>
+            <a href="#" class="horizontal_menu_item_aside">Changing Directories and Finding Files</a>
+            <a href="#" class="horizontal_menu_item_aside">Listing/Displaying Files</a>
+            <a href="#" class="horizontal_menu_item_aside">Making, Deleting, Moving, Coping, Renaming</a>
+            <a href="#" class="horizontal_menu_item_aside">Mounting Drives</a>
+            <a href="#" class="horizontal_menu_item_aside">Conclusion</a>
+        </aside>
+        <section class="wrapper-body_right">
+            <iframe src="file:///C:/Users/jairaj/Desktop/Project2.0/Linux_Intro.html" name="displayContent" class="iframe_Content_Display">
+
+            </iframe>
+        </section>
+    </div>
+    
+    <script src="Assets/Script/Home.js"></script>
+    <script>
+        let sidebar = document.getElementById("sidebarNavigationHTMLID")
+        let openSidebarMenu = document.getElementById("openSidebarMenuID")
+        let open = false;
+
+        openSidebarMenu.addEventListener("click",()=>{
+            open = !open
+            if(open){
+                sidebar.classList.add("sidebarDisplay")
+            }
+            else{
+                sidebar.classList.remove("sidebarDisplay")
+            }
+        })
+    </script>
+</body>
+</html>

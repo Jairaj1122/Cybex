@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/Stylesheet/Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Fira+Sans&family=Inter:wght@200&family=Noto+Sans:wght@700;900&family=Open+Sans:wght@300&family=Oxygen&family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Fira+Sans&family=Inter:wght@200&family=Noto+Sans:wght@700;900&family=Open+Sans:wght@300&family=Oxygen&family=Roboto:wght@700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+            <div class="Logo">
+                <img src="C:\Users\jairaj\Desktop\Project2.0\Assets\img\logo.png">
+            </div>
+            </a>
+            <div href="#Tutorial" class="menu-btn" id="Tutorial-btn">
+                Tutorials
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#references" class="menu-btn" id="references-btn">
+                References
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+            <!-- <div href="#Get_Certified" class="menu-btn" id="exercises-btn">
+                Get Certified
+            </div> -->
+            <div href="#About" class="menu-btn" id="video-btn">
+                About
+            </div>
+            <a href="#Contact" class="menu-btn" id="video-btn">
+                Contact
+            </a>
+            <!-- mobile view menu -->
+            <div class="menu-btn" id="Menu-btn-Mobile">
+                Menu
+                <i class="fa-sharp fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="toggle_Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#login" class="btn" id="login-btn">
+                Log in
+            </a>
+        </div>
+    </header>
+
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <button id="mobile-Nav-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul>
+            <a href="#Tutorial" class="menu-btn-mobile_menu">
+                Tutorials
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </a>
+            <a href="#references" class="menu-btn-mobile_menu">
+                References
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </a>
+            <!-- <a href="#Get_Certificated" class="menu-btn-mobile_menu">
+                Get Certified
+                <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </a> -->
+            <a href="About" class="menu-btn-mobile_menu">
+                About
+            </a>
+            <a href="#Contact" class="menu-btn-mobile_menu">
+                Contact
+            </a>
+        </ul>
+    </div>
+
+
+    <!-- nested navigation bar -->
+    <div class="nested-navigation-container nested-navigation-hidden" id="nested-navigation-container_id">
+        <div class="nested-navigation_container_close-btn" id="nested-navigation-close-btn">
+            <button><i class="fa-solid fa-xmark" class="menu-btn"></i></button>
+        </div>
+        <div class="nested-navigation-container_content" id="nested-navigation-container-contentID">
+            <h1>Tutorials</h1>
+            <div class="nested-navigation-container_Content_data">
+                <div class="nested-navigation-item">
+                    <a href="">Windows</a>
+                    <!-- <a href=""></a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a> -->
+                </div>
+                <div class="nested-navigation-item">
+                    <a href="">Linux</a>
+                    <!-- <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a> -->
+                </div>
+                <div class="nested-navigation-item">
+                    
+                    <h2>HTML and CSS</h2>
+                    <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a>
+                </div>
+                <div class="nested-navigation-item">
+                    <h2>HTML and CSS</h2>
+                    <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a>
+                </div>
+                <div class="nested-navigation-item">
+                    <h2>HTML and CSS</h2>
+                    <a href="">Learn HTML</a>
+                    <a href="">Learn CSS</a>
+                    <a href="">Learn RWD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- front view -->
+    <section class="section_Heading">
+    <div class="section_container">
+        <h1>Learn cyber</h1>
+        <p>With the world's largest cyber security site.</p>
+        <div class="section_Heading_search">
+            <input type="text" placeholder="search our tutorial, e.g. Linux"/>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a href="#">Not Sure Where To Begin?</a>
+    </div>
+    </section>
+    <!-- windows -->
+    <section class="section_linux">
+        <div class="section_left">
+            <h2>Windows</h2>
+            <p>Experience the power of open-source with Linux.</p>
+            <a href="#" class="section_menu">Learn Linux</a>
+            <a href="#" class="section_menu1">Linux References</a>
+            <a href="#" class="section_menu2">Get Certificated</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Windows Commands</h1>
+                <div class="editor" id="linuxCode">
+                        <p>1. cd command</p>
+                        <p class="editor_body"><span style="color:black;font-size:15px">root@ubuntu:</span><span style="color:#4d4dff;">~# cd <directory path></span></p>
+                    
+                        <p>2. mkdir command</p>
+                        <p class="editor_body"><span style="color:black;font-size:15px">root@ubuntu:</span><span style="color:#4d4dff;">~# mkdir <folder name></span></p>
+                        <p>3. cp commands</p>
+                        <p class="editor_body"><span style="color:black;font-size:15px">root@ubuntu:</span><span style="color:#4d4dff;">~# cp <source> <destination></span></p>
+                </div>
+                <button class="editor_btn">Try it Yourself</button>
+            </div>
+        </div>
+    </section>
+    <!-- Linux -->
+    <section class="section_linux1">
+        <div class="section_left">
+            <h2>Linux</h2>
+            <p>Experience the power of open-source with Linux.</p>
+            <a href="#" class="section_menu">Learn Linux</a>
+            <a href="#" class="section_menu1">Linux References</a>
+            <a href="#" class="section_menu2">Get Certificated</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Linux Commands</h1>
+                <div class="editor" id="linuxCode">
+                    <p>1. cd command</p>
+                    <p class="editor_body"><span style="color:black;font-size:15px">root@ubuntu:</span><span style="color:#4d4dff;">~# cd <directory path></span></p>
+                
+                    <p>2. mkdir command</p>
+                    <p class="editor_body"><span style="color:black;font-size:15px">root@ubuntu:</span><span style="color:#4d4dff;">~# mkdir <folder name></span></p>
+                    <p>3. cp commands</p>
+                    <p class="editor_body"><span style="color:black;font-size:15px">root@ubuntu:</span><span style="color:#4d4dff;">~# cp <source> <destination></span></p>
+                </div>
+                <button class="editor_btn"><a href="linux.html" class="try_btn">Try it Yourself</a></button>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Networking -->
+    <section class="section_linux2">
+        <div class="section_left">
+            <h2>Networking</h2>
+            <p>Experience the power of open-source with Linux.</p>
+            <a href="#" class="section_menu">Learn Linux</a>
+            <a href="#" class="section_menu1">Linux References</a>
+            <a href="#" class="section_menu2">Get Certificated</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Linux Commands</h1>
+                <div class="editor" id="linuxCode">
+                    <code>
+                        <p>1. cd command</p>
+                        <p class="editor_body"><span style="color:rgba(255, 0, 0, 0.397);font-size:15px">root@ubuntu:</span><span style="color:red;">~#</span> cd <directory path></p>
+                    
+                        <p>2. mkdir command</p>
+                        <p class="editor_body">root@ubuntu:~# mkdir <folder name></p>
+                        
+                        <p>3. cp and mv commands</p>
+                        <p class="editor_body">root@ubuntu:~# cp <source> <destination></p>
+                </div>
+                <button class="editor_btn">Try it Yourself</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- vulnerability assessment -->
+    <section class="section_linux3">
+        <div class="section_left">
+            <h2>Vulnerability assessment</h2>
+            <p>Experience the power of open-source with Linux.</p>
+            <a href="#" class="section_menu">Learn Linux</a>
+            <a href="#" class="section_menu1">Linux References</a>
+            <a href="#" class="section_menu2">Get Certificated</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Linux Commands</h1>
+                <div class="editor" id="linuxCode">
+                    <code>
+                        <p>1. cd command</p>
+                        <p class="editor_body"><span style="color:rgba(255, 0, 0, 0.397);font-size:15px">root@ubuntu:</span><span style="color:red;">~#</span> cd <directory path></p>
+                    
+                        <p>2. mkdir command</p>
+                        <p class="editor_body">root@ubuntu:~# mkdir <folder name></p>
+                        
+                        <p>3. cp and mv commands</p>
+                        <p class="editor_body">root@ubuntu:~# cp <source> <destination></p>
+                </div>
+                <button class="editor_btn">Try it Yourself</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOC operations -->
+    <section class="section_linux4">
+        <div class="section_left">
+            <h2>SOC operations</h2>
+            <p>Experience the power of open-source with Linux.</p>
+            <a href="#" class="section_menu">Learn Linux</a>
+            <a href="#" class="section_menu1">Linux References</a>
+            <a href="#" class="section_menu2">Get Certificated</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Linux Commands</h1>
+                <div class="editor" id="linuxCode">
+                    <code>
+                        <p>1. cd command</p>
+                        <p class="editor_body"><span style="color:rgba(255, 0, 0, 0.397);font-size:15px">root@ubuntu:</span><span style="color:red;">~#</span> cd <directory path></p>
+                    
+                        <p>2. mkdir command</p>
+                        <p class="editor_body">root@ubuntu:~# mkdir <folder name></p>
+                        
+                        <p>3. cp and mv commands</p>
+                        <p class="editor_body">root@ubuntu:~# cp <source> <destination></p>
+                </div>
+                <button class="editor_btn">Try it Yourself</button>
+            </div>
+        </div>
+    </section>
+   
+    <!-- SIEM tools -->
+    <section class="section_linux5">
+        <div class="section_left">
+            <h2>SIEM tools</h2>
+            <p>Experience the power of open-source with Linux.</p>
+            <a href="#" class="section_menu">Learn Linux</a>
+            <a href="#" class="section_menu1">Linux References</a>
+            <a href="#" class="section_menu2">Get Certificated</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Linux Commands</h1>
+                <div class="editor" id="linuxCode">
+                    <code>
+                        <p>1. cd command</p>
+                        <p class="editor_body"><span style="color:rgba(255, 0, 0, 0.397);font-size:15px">root@ubuntu:</span><span style="color:red;">~#</span> cd <directory path></p>
+                    
+                        <p>2. mkdir command</p>
+                        <p class="editor_body">root@ubuntu:~# mkdir <folder name></p>
+                        
+                        <p>3. cp and mv commands</p>
+                        <p class="editor_body">root@ubuntu:~# cp <source> <destination></p>
+                </div>
+                <button class="editor_btn">Try it Yourself</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+                <img src="Assets/img/logo.png" alt="">
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					<a href="#">Tutorials</a>
+				
+					<a href="#">References</a>
+				
+					<a href="#">Get Certificated</a>
+					
+					<a href="#">About</a>
+					
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Cybex © 2023</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>BH5</span> LPU, Jalander</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>8625888869</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+                    <p class="footer-company-about">
+                        <span>About us</span>
+                        We are passionate about helping people stay safe online and providing up-to-date information about the ever-evolving cyber security landscape. Our website is constantly updated with the latest research and trends, so you can always stay informed. Our goal is to educate and empower everyone to protect their digital space and make sure their online presence is secure. We are committed to offering the highest quality of service and information available to ensure that our customers can stay safe online.
+                    </p>
+					
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+    <script src="Assets/Script/Home.js"></script>
+</body>
+</html>
