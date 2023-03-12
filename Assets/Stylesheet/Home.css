@@ -32,6 +32,12 @@ header{
 .Logo img{
   width: 100%;
 }
+/* .mini-logo img {
+  width: 130px;
+  height: 50px;
+  padding-left: 290px;
+  padding-bottom: 10px;
+} */
 /****header-left****/
 
 .header-left{
@@ -262,6 +268,7 @@ section{
   width: 85%;
   margin: auto;
   max-width: 500px;
+  display: inline;
 }
 .section_Heading{
   background-image: radial-gradient(41.33% 45.33% at 50% 50%, rgba(55, 50, 121, 0.89) 0px, #0e0e16 100%);

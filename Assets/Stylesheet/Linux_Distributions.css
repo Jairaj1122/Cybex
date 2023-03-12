@@ -79,16 +79,59 @@ body{
     /* font-weight: 550; */
 }
 .main_content_heading h1{
-	font-size: 20px;
+	font-size: 23px;
 	color: white;
+}
+.main_content p{
+	font-size:18px;
+	color: white;
+}
+.main_content a{
+	font-size:18px;
+	color: red;
+	text-decoration: none;
+}
+.main_content i{
+	font-size:18px;
+	color: white;
+	padding: 0 36vw;
+} 
+.main_content img{
+	padding: 0 29vw;
+	height: 30%;
+	width: 30%;
+}
+.command_line img{
+	width: 70%;
+	height: 100%;
+	padding: 0 14vw;
+}
+.command img{
+	height: 50%;
+	width: 50%;
+}
+.main_content_heading i{
+	color: white;
+	font-size: 20px;
+	padding: 20px;
 }
 .main_content_heading ul{
 	font-size: 20px;
 	color: white;
 }
+.main_content_heading p{
+	font-size: 23px;
+	color: white;
+	text-align: center;
+}
 .categories{
 	font-size: 18px;
 	color: white;
+}
+.Ubuntu img{ 
+	height: 70%;
+	width: 70%;
+	padding: 5px 8px;
 }
 
 /* .points{
